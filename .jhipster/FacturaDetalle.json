@@ -1,0 +1,30 @@
+{
+    "name": "FacturaDetalle",
+    "fields": [
+        {
+            "fieldName": "productoId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "cantidad",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "precioUnitario",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200325223118",
+    "entityTableName": "factura_detalle",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "gatewaystore"
+    ]
+}
